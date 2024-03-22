@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search :hover {
+    cursor: pointer;
+}
+.avi {
+    margin-left: -150px;
+}
+.icon {
+    gap: 30px;
+}
+.icon a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.header_short {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 44px;
+}
+li a {
+    list-style: none;
+    text-decoration: none;
+    color: black; 
+}
+.bacim {
+    background-image: url(/images/Hero\ Blocks.webp);
+    height: 704px;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    background-size: cover;
+}
+.header_box {
+    width: 600px !important;
+    height: 444px;
+    background-color: white;
+    margin-left: 650px;
+    padding: 48px 56px;
+}
+.but {
+    margin-top: 140px;
+}
+h5 {
+    opacity: 0.6;
+}
+// header end//
+
+//main start//
+
+.main_bloc {
+    width: 305px;
+    height: 244px;
+    border: 1px solid none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 48px;
+}
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.mbut {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+.main_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.main_card_child {
+    width: 634px;
+    height: 478px;
+    background-color: #2A254B;
+    color: white;
+}
+.child_box {
+    margin:64px;
+}
+.col {
+    margin-top: 205px;
+    background-color: #F9F9F926;
+    color: white;
+}
+
+.footer_head{
+    height: 444px;
+    background-image: url(/images/bac_out.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.helper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.gal {
+    border-radius: 50%;
+    background-color: rgb(223, 140, 17);
+}
+.email {
+    width: 400px;
+    height: 56px;
+    padding-left: 20px;
+}
+.footer_bloc {
+    background-color: #2A254B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.ender {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ender a {
+    color: white;
+}
